@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Verdana;
+    box-sizing: border-box;
+
+}
+nav {
+    width: 100%;
+    height: 60px;
+    background: white
+    border: 1px solid red;
+    display: flex;
+}
+nav ul {
+    width: 30%;
+    height: auto;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+li {
+    padding: 0 10px;
+    flex-direction: row wrap;
+}
+nav div {
+    width: 20%;
+    height: 120px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: 
+    linear-gradient(45deg, transparent 45px, #f2f 0) bottom left,
+    linear-gradient(-45deg, transparent 45px, rgb(4, 126, 40) 0) bottom right;
+    visibility: visible;
+   
+}
+h1 {
+    font-size: 50px;
+    color:rgb(241, 8, 8);
+}
+.logo {
+    width: 50%;
+    height: 120px;
+}
+.fa-solid {
+  color:   rgb(241, 8, 8);
+}
+.fa-brands{
+   color:rgb(241, 8, 8);
+}
+.Background-image {
+width: 100%;
+height: 500px;
+background-image: url(images/1.jpg);
+background-size:cover;
+text-align: center;
+padding-top: 150px;
+
+}
+.menubar{
+    width: 100%;
+    height: 50px;
+    font-weight: 550;
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px 110px 110px 110px;
+    grid-template-rows: 50px;
+    padding: 0 300px;
+    border: 1px solid rgb(170, 170, 170);
+    border-left: none;
+    border-right: none;
+}
+.menubar div {
+    padding: 15px 0;
+    text-align: center;
+    border: 1px solid rgb(201, 201, 201);
+}
+.menubar div a {
+    text-decoration: none;
+    color:rgb(122, 120, 120) ;
+}
+.menubar div a:hover {
+    color: rgb(241, 8, 8);
+   
+}
+#portfolio {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 50px 0;
+    align-content: center;
+    justify-content:center;
+}
+hr {
+    width: 70px;
+    margin-top: 7px;
+    border: 2px solid rgb(241, 8, 8);
+}
+#portfolio div {
+    width: 30%;
+    height: 400px;
+    padding: 20px 10px 0 20px;
+}
+.mobile-illustration {
+    width: 400px;
+    height: 300px;
+     
+}
+#service-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: rgb(241, 8, 8);
+}
+.service-div{
+    width: 50%;
+    height: 500px;
+    padding: 50px 0;
+    color: white;
+    border: 1px solid yellow;
+}
+.service-div ul {
+    list-style: none;
+    display: flex;
+    
+}
+.service-div ul li {
+    width: 25%;
+    height: 150px;
+    display: inline-flex;
+}
+.work-container {
+    width: 50%;
+    height: 200px;
+    padding-top: 50px;
+   
+
+
+}
+.work-list{
+    width: 100%;
+    height: 40px;
+    margin: 30px 0;
+    list-style: none;
+     display:inline-flex;
+     border: 1px solid red;
+}
+.work-list li{
+height: 20px;
+font-size: 14px;
+font-weight: 600;
+margin-top: 10px;
+border-left: 1px solid red;
+
+}
+.work-list li a{
+    text-decoration: none;
+    color: black;
+}
+.work-album{
+    width:50%;
+    height: auto;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    background: white;
+    border: 2px solid red;
+
+
+}
